@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <strong><p id="login">Home</p></strong>
+            <ul class="navbar-nav me-5 ms-auto mb-2 mb-lg-0 px-5">
+              <li class="nav-item">
+                <a class="nav-link" type="submit" onclick="ajreq()" aria-current="page">To-Do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" type="submit" onclick="redirectToIndex()" >Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+        <div class="container">
+        <hr>
+        <div class="row">
+    <!-- <button type="submit" onclick="ajreq()">Change Content</button> -->
+    <h5 id="htxt"></h5>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+    <footer class="bg-primary text-white text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/"></a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      
+</body>
+</html>
